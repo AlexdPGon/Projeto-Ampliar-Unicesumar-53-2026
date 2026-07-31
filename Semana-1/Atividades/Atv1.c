@@ -7,12 +7,12 @@
 // Função principal, por onde o código inicia a execução
 int main()  {
 
-    int num1, num2, resultado;
+    int num1, num2, resultado; // Declaração de variáveis
     
-    printf("Digite o primeiro numero: "); //Printf para escrever o valor da variável na tela
+    printf("Digite o primeiro numero: "); //Printf para escrever na tela
     scanf("%d", &num1); // Lê o valor digitado pelo usuário e armazena na variável num1
 
-    printf("Digite o segundo numero: ");
+    printf("Digite o segundo numero: "); //Printf para escrever na tela
     scanf("%d", &num2); // Lê o valor digitado pelo usuário e armazena na variável num2
 
     resultado = num1 + num2; // Realiza a soma dos dois números e armazena o resultado na variável resultado
